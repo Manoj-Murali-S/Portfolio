@@ -2,6 +2,8 @@ import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import { TbDownload } from "react-icons/tb";
+
 
 const Home = () => {
   return (
@@ -10,7 +12,7 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-      <div className="small-screen hidden">
+        <div className="small-screen hidden">
           <img
             src={HeroImage}
             alt="profile"
@@ -22,12 +24,12 @@ const Home = () => {
             I'm a Frond End Web Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 1 years of experience building websites.
-            I love to work on web application using technologies like
-            React, Vue, Tailwind, and Bootstrap.
+            I have 1 years of experience building websites. I love to work on
+            web application using technologies like React, Vue, Tailwind and
+            Bootstrap.
           </p>
 
-          <div className="portfolio-btn">
+          <div className="flex gap-3">
             <Link
               to="portfolio"
               smooth
@@ -39,6 +41,17 @@ const Home = () => {
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
+            <a
+             href="https://drive.google.com/file/d/1dOm6QaU6J0WhxYmxW0Q5gMflPalMjszz/view?usp=drive_link"
+              smooth
+              duration={500}
+              className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+            >
+              Resume
+              <span className="duration-300">
+                <TbDownload size={25} className="ml-1" />
+              </span>
+            </a>
           </div>
         </div>
         <div className="big-screen">
@@ -48,7 +61,6 @@ const Home = () => {
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
-        
       </div>
     </div>
   );
