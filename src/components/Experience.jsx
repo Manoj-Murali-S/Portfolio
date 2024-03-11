@@ -123,7 +123,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <div className=" p-10 bg-gradient-to-b from-gray-800 to-black w-full h-screen text-white font-sans">
+      <div  name="Github Contribution" className=" p-10 bg-gradient-to-b from-gray-800 to-black w-full h-screen text-white font-sans">
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
           <p class="text-4xl text-center md:text-left font-bold border-b-4 border-gray-500 p-2 inline w-fit">
             Github Contribution
