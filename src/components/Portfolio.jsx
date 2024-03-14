@@ -14,36 +14,36 @@ const Portfolio = () => {
     //   link: 'https://crypto-info-api.cyclic.app/',
     //   repo: 'https://github.com/rahulkarda/crypto-info-api'
     // },
-    {
-      id: 2,
-      src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: ''
-    },
-    {
-      id: 3,
-      src: apod,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: ''
-    },
-    {
-      id: 4,
-      src: waveportal,
-      link: 'https://waveatrahul.netlify.app/',
-      repo: ''
-    },
-    {
-      id: 5,
-      src: nftportal,
-      link: 'https://nftportalbyrahul.netlify.app/',
-      repo: ''
-    },
-    {
-      id: 6,
-      src: iptracker,
-      link: 'https://trackmyip.netlify.app/',
-      repo: ''
-    },
+    // {
+    //   id: 2,
+    //   src: webpostman,
+    //   link: 'https://webpostman.netlify.app/',
+    //   repo: ''
+    // },
+    // {
+    //   id: 3,
+    //   src: apod,
+    //   link: 'https://apodbyrahul.netlify.app/',
+    //   repo: ''
+    // },
+    // {
+    //   id: 4,
+    //   src: waveportal,
+    //   link: 'https://waveatrahul.netlify.app/',
+    //   repo: ''
+    // },
+    // {
+    //   id: 5,
+    //   src: nftportal,
+    //   link: 'https://nftportalbyrahul.netlify.app/',
+    //   repo: ''
+    // },
+    // {
+    //   id: 6,
+    //   src: iptracker,
+    //   link: 'https://trackmyip.netlify.app/',
+    //   repo: ''
+    // },
   ];
 
   return (
